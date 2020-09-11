@@ -1,0 +1,4 @@
+- [X] Check the code into a git repo
+- [X] Add a README.md file
+- [ ] Set up a `Firebase` project
+- [ ] Include support for `Flutter` in the `Firebase` project
