@@ -11,7 +11,7 @@ import (
 func main() {
 	log.Print("starting server...")
 	http.HandleFunc("/", defaultHandler)
-	http.HandleFunc("/time", getTimeHandler)
+	http.HandleFunc("/time", timeHandler)
 
 	// Determine port for HTTP service.
 	port := os.Getenv("PORT")
@@ -27,7 +27,7 @@ func main() {
 	}
 }
 
-func getTimeHandler(w http.ResponseWriter, r *http.Request) {
+func timeHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, time.Now().String())
 }
 
