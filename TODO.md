@@ -1,3 +1,0 @@
-- [ ] Check the code into a git repo
-- [ ] Set up a `Firebase` project
-- [ ] Include support for `Flutter` in the `Firebase` project
