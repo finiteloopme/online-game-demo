@@ -28,7 +28,8 @@ func main() {
 }
 
 func timeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, time.Now().String())
+	hostname, _ := os.Hostname()
+	fmt.Fprintf(w, "Time from ["+hostname+"] is: "+time.Now().String())
 }
 
 func defaultHandler(w http.ResponseWriter, r *http.Request) {
