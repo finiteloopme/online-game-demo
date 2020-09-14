@@ -12,5 +12,5 @@ gcloud beta billing projects link ${PROJECT_ID} \
 
 gcloud config set project ${PROJECT_ID}
 # Enable Services
-gcloud services enable container.googleapis.com compute.googleapis.com cloudbuild.googleapis.com
+gcloud services enable run.googleapis.com container.googleapis.com compute.googleapis.com cloudbuild.googleapis.com
 ```

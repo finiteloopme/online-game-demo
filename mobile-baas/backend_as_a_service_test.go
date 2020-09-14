@@ -1,4 +1,4 @@
-package mbaas
+package main
 
 import (
 	"fmt"
